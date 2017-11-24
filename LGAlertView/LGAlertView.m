@@ -2900,7 +2900,7 @@ LGAlertViewType;
                     self.tableView.tableHeaderView = self.separatorHorizontalView;
                 }
 
-                CGRect tableViewFrame = CGRectMake(0.0, offsetY + self.innerMarginHeight, width, self.tableView.contentSize.height);
+                CGRect tableViewFrame = CGRectMake(0.0, offsetY + self.innerMarginHeight, width, self.tableView.contentSize.height + 35);
 
                 if (LGAlertViewHelper.isNotRetina) {
                     tableViewFrame = CGRectIntegral(tableViewFrame);
